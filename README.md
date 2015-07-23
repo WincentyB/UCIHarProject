@@ -33,10 +33,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## project plan
 1. Instal and load necessary packages  
-2. Download the data   
-3. Unzip data  
+2. Download dataset file   
+3. Unzip downloded file  
 4. Read necessery data   
-5. Preprocess data and merge necessary info to one data.frame  
+5. Preprocess the data and merge necessary info to one data.frame  
 6. Create and write to the disk tidy data file  
 
 ## Dependencies
