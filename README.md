@@ -31,13 +31,16 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4. tidydata.txt     - tidy data set with the average of each variable for each   activity and each subject  
 
 
-## project plan
+## project steps
+
 1. Instal and load necessary packages  
 2. Download dataset file   
 3. Unzip downloded file  
 4. Read necessery data   
 5. Preprocess the data and merge necessary info to one data.frame  
 6. Create and write to the disk tidy data file  
+
+More specific description is included in "CodeBook.md"
 
 ## Dependencies
 1. Script run_analysis.R installs additional package: data.table; there is test if package is already installed  
