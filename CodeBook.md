@@ -9,7 +9,7 @@ Information about the steps in the project
 Original Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 Data description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
-Following files was used from data folder:  
+Following files were used from data folder:  
 
 main folder:  
 - 'features_info.txt': Shows information about the variables used on the feature vector.  
@@ -28,7 +28,7 @@ test folder:
 
 Following are the most significant variables used in the r script:  
 
-colNames     - names of columns names from file features.txt  
+colNames     - columns names from file features.txt  
 m_std_colNames    * - columns names restricted to mean and std  
 activity_l     - activity names  
 
@@ -49,7 +49,7 @@ tData     - tidy data, aggregated means for activities and subjects
 ## Script steps
 
 1. test if data.table package is installed if not install it, load data.table library  
-2. download zip file from given URL and unzip file in the working directory  
+2. download zip file from given URL and unzip the file in the working directory  
 3. test data pre-processing  
   3.1 read test data from X_test.txt as a data.frame  
   3.2 read test activity labels from Y_test.txt as a data.frame  
